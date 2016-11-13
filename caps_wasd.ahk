@@ -51,12 +51,20 @@ Capslock & Tab::Send {Blind}{Capslock DownTemp}
 Capslock & Tab up::Send {Blind}{Capslock Up}
 
 
-F9::Send {Blind}{Media_Prev DownTemp}
-F9 up::Send {Blind}{Media_Prev Up}
+F10::Send {Blind}{Media_Prev DownTemp}
+F10 up::Send {Blind}{Media_Prev Up}
 
 
-F10::Send {Blind}{Media_Next DownTemp}
-F10 up::Send {Blind}{Media_Next Up}
+F11::Send {Blind}{Media_Next DownTemp}
+F11 up::Send {Blind}{Media_Next Up}
+
+
+PgUp::Send {Blind}{Media_Prev DownTemp}
+PgUp up::Send {Blind}{Media_Prev Up}
+
+
+PgDn::Send {Blind}{Media_Next DownTemp}
+PgDn up::Send {Blind}{Media_Next Up}
 
 
 Capslock & q::Send {Blind}{Volume_Down DownTemp}
@@ -81,6 +89,10 @@ Capslock & c up::Send {Blind}{Media_Prev Up}
 
 Capslock & v::Send {Blind}{Media_Next DownTemp}
 Capslock & v up::Send {Blind}{Media_Next Up}
+
+
+Capslock & f::Send {Blind}{F6}
+Capslock & f up::Send {Blind}{}
 
 
 
